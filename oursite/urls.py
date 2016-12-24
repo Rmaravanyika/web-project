@@ -10,5 +10,4 @@ urlpatterns = [
     url(r'^social-impact/', views.social_impact, name='social_impact'),
     url(r'^donate/', views.donate, name='donate'),
     url(r'^contact/', views.contact, name='contact'),
-    url(r'^show_school/', views.show_school, name='show_school'),
     ]
